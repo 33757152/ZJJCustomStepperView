@@ -14,6 +14,7 @@
 		847A364624BE965200724B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847A364524BE965200724B0A /* Assets.xcassets */; };
 		847A364924BE965200724B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847A364724BE965200724B0A /* LaunchScreen.storyboard */; };
 		847A364C24BE965200724B0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A364B24BE965200724B0A /* main.m */; };
+		847A365424BE983B00724B0A /* XtayStepperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 847A365324BE983B00724B0A /* XtayStepperView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		847A364824BE965200724B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847A364A24BE965200724B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847A364B24BE965200724B0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		847A365224BE983B00724B0A /* XtayStepperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XtayStepperView.h; sourceTree = "<group>"; };
+		847A365324BE983B00724B0A /* XtayStepperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XtayStepperView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				847A363A24BE965100724B0A /* AppDelegate.m */,
 				847A363C24BE965100724B0A /* SceneDelegate.h */,
 				847A363D24BE965100724B0A /* SceneDelegate.m */,
+				847A365224BE983B00724B0A /* XtayStepperView.h */,
+				847A365324BE983B00724B0A /* XtayStepperView.m */,
 				847A363F24BE965100724B0A /* ViewController.h */,
 				847A364024BE965100724B0A /* ViewController.m */,
 				847A364224BE965100724B0A /* Main.storyboard */,
@@ -150,6 +155,7 @@
 				847A363B24BE965100724B0A /* AppDelegate.m in Sources */,
 				847A364C24BE965200724B0A /* main.m in Sources */,
 				847A363E24BE965100724B0A /* SceneDelegate.m in Sources */,
+				847A365424BE983B00724B0A /* XtayStepperView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,13 +297,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZJJCustomStepperView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZJJCustomStepperView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,13 +314,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZJJCustomStepperView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZJJCustomStepperView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
